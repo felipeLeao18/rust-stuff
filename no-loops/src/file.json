@@ -1,0 +1,44 @@
+{
+  "compras": [
+    {
+      "data": "2022-08-01",
+      "produtos": [
+        {
+          "cod": 1,
+          "qtd": 10,
+          "valor_unitario": 123
+        },
+        {
+          "cod": 2,
+          "qtd": 20,
+          "valor_unitario": 234
+        },
+        {
+          "cod": 3,
+          "qtd": 30,
+          "valor_unitario": 345
+        }
+      ]
+    },
+    {
+      "data": "2022-08-29",
+      "produtos": [
+        {
+          "cod": 4,
+          "qtd": 4,
+          "valor_unitario": 123.45
+        },
+        {
+          "cod": 5,
+          "qtd": 5,
+          "valor_unitario": 234.56
+        },
+        {
+          "cod": 6,
+          "qtd": 6,
+          "valor_unitario": 345.67
+        }
+      ]
+    }
+  ]
+}
