@@ -8,8 +8,8 @@ fn main() {
 
     for (i, calories_group) in buffer.split_terminator("\n\n").enumerate() {
         let mut total_calories_by_elf: i32 = 0;
-        for calorie in calories_group.split_terminator("\n") {
-            total_calories_by_elf += calorie.parse::<i32>().unwrap();
+        for calory in calories_group.split_terminator("\n") {
+            total_calories_by_elf += calory.parse::<i32>().unwrap();
         }
 
         calories_by_elf.insert(total_calories_by_elf, i);
