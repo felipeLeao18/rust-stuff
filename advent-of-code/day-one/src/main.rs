@@ -16,7 +16,7 @@ fn main() {
         calories_by_elf.insert(total_calories_by_elf, i);
     }
 
-    let result: Option<&i32> = calories_by_elf.keys().max();
+    let result: Option<&i32> = calories_by_elf.keys().last();
     println!("{:?}", result);
 
     let top_three_sum: i32 = calories_by_elf
